@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/fab_margin"
+    android:background="@color/white"
+    tools:context=".VotingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHAIRPERSON"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+            <RadioGroup
+                android:padding="@dimen/fab_margin"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:background="@drawable/custom_radio_selector"
+                    android:button="@color/teal_700"
+                    android:drawableTop="@drawable/user"
+                    android:textAlignment="center"
+                    android:text="Michelle Were"
+                    android:textColor="@drawable/custom_radio_text"
+                    android:layout_width="150dp"
+                    android:layout_height="140dp"/>
+                <RadioButton
+                    android:background="@drawable/custom_radio_selector"
+                    android:button="@color/teal_700"
+                    android:drawableTop="@drawable/user"
+                    android:textAlignment="center"
+                    android:text="Jean Wasike"
+                    android:textColor="@drawable/custom_radio_text"
+                    android:layout_width="150dp"
+                    android:layout_height="140dp"
+                    android:layout_marginStart="@dimen/fab_margin"/>
+            </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VICE CHAIRPERSON"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:padding="@dimen/fab_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Favour Ayiela"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"/>
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Daniel John"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="@dimen/fab_margin"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SECRETARY"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:padding="@dimen/fab_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Haifa Hamud"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FINANCE REPRESENTATIVE"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:padding="@dimen/fab_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Michael Owen"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"/>
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Grace Namasaka"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="@dimen/fab_margin"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PUBLIC RELATIONS"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:padding="@dimen/fab_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Pierre Gasly"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"/>
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Ryan Kilonzo"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="@dimen/fab_margin"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MALE ACADEMIC REP"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:padding="@dimen/fab_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Esteban Ocon"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"/>
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Jordi Alba"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="@dimen/fab_margin"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FEMALE ACADEMIC REP"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:padding="@dimen/fab_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Gemma Owen"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"/>
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Indiyah Oslah"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="@dimen/fab_margin"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MALE SPORTS REP"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:padding="@dimen/fab_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Fernando Alonso"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"/>
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Jude Bellingham"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="@dimen/fab_margin"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FEMALE SPORTS REP"
+            android:background="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:padding="@dimen/fab_margin"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Angelina Jolie"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"/>
+            <RadioButton
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/teal_700"
+                android:drawableTop="@drawable/user"
+                android:textAlignment="center"
+                android:text="Joy Ayieko"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="@dimen/fab_margin"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/vote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/login_shapes"
+            android:text="Submit Vote"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</ScrollView>
